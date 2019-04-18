@@ -15,4 +15,9 @@ void main()
      for (i=0;i<3;i++)
        for (j=0;j<3;j++)
          printf("array[%d][%d]=%d\n",i,j,*(*(array+i)+j));
+     for (i=0;i<10;i++)
+       {
+         printf("The value of list[%d] is:%d.\n",i,*ptrl);
+         ptrl++;
+       }
   }
